@@ -11,6 +11,13 @@
 		4519EFEF2B7A039C006FBF93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4519EFEE2B7A039C006FBF93 /* ContentView.swift */; };
 		4519EFF12B7A039E006FBF93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4519EFF02B7A039E006FBF93 /* Assets.xcassets */; };
 		4519EFF42B7A039E006FBF93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4519EFF32B7A039E006FBF93 /* Preview Assets.xcassets */; };
+		4519EFFB2B7A072C006FBF93 /* GenreThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4519EFFA2B7A072C006FBF93 /* GenreThumbView.swift */; };
+		4519EFFD2B7A26FB006FBF93 /* TMDBConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4519EFFC2B7A26FB006FBF93 /* TMDBConnection.swift */; };
+		4519EFFF2B7A3694006FBF93 /* GenreListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4519EFFE2B7A3694006FBF93 /* GenreListView.swift */; };
+		4519F0012B7A71E3006FBF93 /* MoviesListByGenreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4519F0002B7A71E3006FBF93 /* MoviesListByGenreView.swift */; };
+		4519F0032B7A764E006FBF93 /* MovieThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4519F0022B7A764E006FBF93 /* MovieThumbView.swift */; };
+		4519F0052B7BC62D006FBF93 /* MovieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4519F0042B7BC62D006FBF93 /* MovieDetailsView.swift */; };
+		4519F0072B7C9613006FBF93 /* MovieReviewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4519F0062B7C9613006FBF93 /* MovieReviewListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		4519EFEE2B7A039C006FBF93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4519EFF02B7A039E006FBF93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4519EFF32B7A039E006FBF93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4519EFFA2B7A072C006FBF93 /* GenreThumbView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreThumbView.swift; sourceTree = "<group>"; };
+		4519EFFC2B7A26FB006FBF93 /* TMDBConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBConnection.swift; sourceTree = "<group>"; };
+		4519EFFE2B7A3694006FBF93 /* GenreListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreListView.swift; sourceTree = "<group>"; };
+		4519F0002B7A71E3006FBF93 /* MoviesListByGenreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListByGenreView.swift; sourceTree = "<group>"; };
+		4519F0022B7A764E006FBF93 /* MovieThumbView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieThumbView.swift; sourceTree = "<group>"; };
+		4519F0042B7BC62D006FBF93 /* MovieDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsView.swift; sourceTree = "<group>"; };
+		4519F0062B7C9613006FBF93 /* MovieReviewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieReviewListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,9 @@
 		4519EFE02B7A039C006FBF93 = {
 			isa = PBXGroup;
 			children = (
+				4519F0062B7C9613006FBF93 /* MovieReviewListView.swift */,
+				4519F0002B7A71E3006FBF93 /* MoviesListByGenreView.swift */,
+				4519F0042B7BC62D006FBF93 /* MovieDetailsView.swift */,
 				4519EFEB2B7A039C006FBF93 /* MoviesReview */,
 				4519EFEA2B7A039C006FBF93 /* Products */,
 			);
@@ -53,6 +70,10 @@
 			children = (
 				4519EFEC2B7A039C006FBF93 /* MoviesReviewApp.swift */,
 				4519EFEE2B7A039C006FBF93 /* ContentView.swift */,
+				4519EFFE2B7A3694006FBF93 /* GenreListView.swift */,
+				4519EFFA2B7A072C006FBF93 /* GenreThumbView.swift */,
+				4519F0022B7A764E006FBF93 /* MovieThumbView.swift */,
+				4519EFFC2B7A26FB006FBF93 /* TMDBConnection.swift */,
 				4519EFF02B7A039E006FBF93 /* Assets.xcassets */,
 				4519EFF22B7A039E006FBF93 /* Preview Content */,
 			);
@@ -137,7 +158,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4519F0072B7C9613006FBF93 /* MovieReviewListView.swift in Sources */,
+				4519F0012B7A71E3006FBF93 /* MoviesListByGenreView.swift in Sources */,
 				4519EFEF2B7A039C006FBF93 /* ContentView.swift in Sources */,
+				4519F0052B7BC62D006FBF93 /* MovieDetailsView.swift in Sources */,
+				4519EFFB2B7A072C006FBF93 /* GenreThumbView.swift in Sources */,
+				4519EFFD2B7A26FB006FBF93 /* TMDBConnection.swift in Sources */,
+				4519F0032B7A764E006FBF93 /* MovieThumbView.swift in Sources */,
+				4519EFFF2B7A3694006FBF93 /* GenreListView.swift in Sources */,
 				4519EFED2B7A039C006FBF93 /* MoviesReviewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
